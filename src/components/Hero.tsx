@@ -1,11 +1,11 @@
 // Hero.tsx
 import Image from "next/image";
 import text from '@/asstes/text.png'
+import banner1 from '@/asstes/banner1.png'
 
 export default function Hero() {
     return (
         <div className="block h-screen flex items-center justify-center px-16">
-            <div className="absolute inset-0 bg-cover bg-center"></div>
             <div className="relative z-10 text-white w-full lg:w-1/3">
                 <div className="text-left mb-4">
                     <Image src={text} alt="Texto" width={600} height={32} />
@@ -16,7 +16,7 @@ export default function Hero() {
                 </button>
             </div>
             <div className="w-none lg:w-1/2">
-
+            <Image src={banner1} alt="Texto" width={1200} height={32} />
             </div>
         </div>
     );
