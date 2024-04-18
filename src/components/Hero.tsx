@@ -1,4 +1,6 @@
 // Hero.tsx
+import Image from "next/image";
+import text from '@/asstes/text.png'
 
 export default function Hero() {
     return (
@@ -6,13 +8,16 @@ export default function Hero() {
             <div className="absolute inset-0 bg-cover bg-center"></div>
             <div className="relative z-10 text-white w-full lg:w-1/3">
                 <div className="text-left mb-4">
-                    <p className="text-sm md:text-2xl text-white font-bold mb-4 pr-0 lg:pr-20">TrueVR é a próxima evolução do mundo de realidade virtual. Nossa visão é ajudar a conectar todas as pessoas do mundo, eliminando distância e tempo. Comece sua aventura agora mesmo, juntos.</p>
+                    <Image src={text} alt="Texto" width={600} height={32} />
+                    <p className="text-sm md:text-xl text-gray-custom font-bold mb-4 pr-0 lg:pr-20">TrueVR é a próxima evolução do mundo de realidade virtual. Nossa visão é ajudar a conectar todas as pessoas do mundo, eliminando distância e tempo. Comece sua aventura agora mesmo, juntos.</p>
                 </div>
-                <button className="bg-green-custom text-black text-2xl font-bold py-3 px-12 rounded">
+                <button className="bg-green-neon text-black text-2xl font-bold py-3 px-12 rounded">
                     Explorar
                 </button>
             </div>
-            <div className="w-none lg:w-1/2"></div>
+            <div className="w-none lg:w-1/2">
+
+            </div>
         </div>
     );
 }

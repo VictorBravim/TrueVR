@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         "green-custom": "#C0F866",
+        "green-neon": "#90DD04",
+        "gray-custom": "#35393C",
       }
     },
   },
