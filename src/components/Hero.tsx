@@ -1,7 +1,7 @@
 // Hero.tsx
 import Image from "next/image";
-import text from '@/asstes/text.png'
-import banner1 from '@/asstes/banner1.png'
+import text from '@/assets/text.png'
+import banner1 from '@/assets/banner1.png'
 
 export default function Hero() {
     return (

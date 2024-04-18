@@ -1,10 +1,10 @@
 // Nav.tsx
 import Image from "next/image";
-import logo from '@/asstes/logo.png'
+import logo from '@/assets/logo.png'
 
 export default function Nav() {
     return (
-        <nav className="bg-transparent p-4 md:p-12 absolute w-full z-20">
+        <nav className="bg-transparent p-8 absolute w-full z-20">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                 <div className="flex items-center ml-0 lg:ml-8">
                     <Image src={logo} alt="Logo" width={150} height={32} />
