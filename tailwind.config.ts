@@ -12,6 +12,7 @@ const config: Config = {
         "green-custom": "#ADF43A",
         "green-neon": "#90DD04",
         "gray-custom": "#35393C",
+        "blue-custom": "#101519",
       }
     },
   },
