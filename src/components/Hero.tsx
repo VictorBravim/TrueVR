@@ -17,8 +17,10 @@ export default function Hero() {
                         Explorar
                     </button>
                     <button className="bg-none hidden lg:block flex flex-row items-center text-white text-2xl font-bold py-3 px-10 rounded">
+                        <div className="flex">
                         <FaPlay className="mr-6"/>
                         Mais
+                        </div>
                     </button>
                 </div>
             </div>
