@@ -1,6 +1,6 @@
 // Card.tsx
 import Image from "next/image";
-import text2 from '@/assets/text2.png'
+import text2 from '@/assets/text2.webp'
 import { FaUsers, FaBook, FaPalette } from "react-icons/fa";
 import { IoGameController, IoStatsChart } from "react-icons/io5";
 import { GiMedicalPack } from "react-icons/gi";

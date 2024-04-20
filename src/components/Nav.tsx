@@ -2,7 +2,7 @@
 'use client'
 import { useState } from 'react';
 import Image from "next/image";
-import logo from '@/assets/logo.png'
+import logo from '@/assets/logo.webp'
 
 export default function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);

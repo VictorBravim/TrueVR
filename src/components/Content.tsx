@@ -1,7 +1,7 @@
 // Content.tsx
 import Image from "next/image";
-import text3 from '@/assets/text3.png'
-import banner2 from '@/assets/banner2.png'
+import text3 from '@/assets/text3.webp'
+import banner2 from '@/assets/banner2.webp'
 
 export default function Content() {
     return (
