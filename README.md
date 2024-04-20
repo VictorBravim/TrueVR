@@ -1,6 +1,6 @@
 # TrueVR
 
-
+![Sem título 3](https://github.com/VictorBravim/TrueVR/assets/122113588/6eb2cb5d-0a8b-4fa4-8252-4dc37eaf63b1)
 
 Este é um projeto de site básico construído com Next.js, TypeScript e Tailwind CSS para apresentar a TrueVR, uma plataforma de realidade virtual.
 
