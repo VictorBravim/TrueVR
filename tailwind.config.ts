@@ -13,6 +13,7 @@ const config: Config = {
         "green-neon": "#90DD04",
         "gray-custom": "#35393C",
         "blue-custom": "#101519",
+        "background": "#070A0F",
       }
     },
   },
