@@ -11,38 +11,38 @@ export default function Card() {
     return (
         <div className="flex flex-col justify-center items-center h-full">
             <Image src={text2} alt="Logo" width={800} height={32} className="top-0 mb-20" />
-            <div className="w-4/5 md:w-2/2 bg-blue-custom p-4 rounded-lg">
+            <div className="w-4/5 md:w-2/2 bg-blue-custom p-4 rounded-lg sw">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-white">
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <IoStatsChart />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <IoStatsChart className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para comercial</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <FaUsers />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <FaUsers className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para redes sociais</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <IoGameController />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <IoGameController className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para jogos</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <FaBook />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <FaBook className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para educação</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <GiMedicalPack />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <GiMedicalPack className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para medicina</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <PiFilmReelFill />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <PiFilmReelFill className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para entretenimento</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <MdBusinessCenter />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <MdBusinessCenter className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para negócios</p>
                     </div>
-                    <div className="bg-none p-4 rounded-lg flex flex-col items-center">
-                        <FaPalette />
+                    <div className="bg-none p-4 rounded-lg flex flex-col justify-center items-center">
+                        <FaPalette className="w-1/3 h-1/2 bg-green-custom text-black rounded-lg py-6 mb-6 swv"/>
                         <p>VR para arte</p>
                     </div>
                 </div>
