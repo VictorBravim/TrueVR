@@ -11,7 +11,7 @@ export default function Nav() {
         setMenuOpen(!menuOpen);
     };
 
-    const scrollToSection = (id: string) => { 
+    const scrollToSection = (id: string) => {
         const section = document.getElementById(id);
         if (section) {
             section.scrollIntoView({ behavior: "smooth" });

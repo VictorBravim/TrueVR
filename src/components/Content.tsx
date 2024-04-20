@@ -7,7 +7,7 @@ export default function Content() {
     return (
         <div id="sobre" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-10">
             <div className="w-none lg:w-1/2">
-                <Image src={banner2} alt="Texto" width={1000} height={32} className="mb-6 lg:mb-0"/>
+                <Image src={banner2} alt="Texto" width={1000} height={32} className="mb-6 lg:mb-0" />
             </div>
             <div className="relative z-10 text-white w-full lg:w-1/3">
                 <div className="text-left mb-4">

@@ -14,7 +14,7 @@ const config: Config = {
         "gray-custom": "#35393C",
         "blue-custom": "#101519",
         "background": "#070A0F",
-      }
+      } 
     },
   },
   plugins: [],
