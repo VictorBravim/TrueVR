@@ -16,14 +16,17 @@ O objetivo deste projeto é criar um site simples, mas elegante, que destaque os
 ## Instalação
 
 1. Clone este repositório:
+ 
    ```
-   git clone https://github.com/seu-usuario/truevr-website.git
+   git clone https://github.com/VictorBravim/truevr-website.git
    ```
 2. Navegue até o diretório do projeto:
+   
    ```
    cd truevr-website
    ```
 3. Instale as dependências:
+   
    ```
    npm install
    # ou
