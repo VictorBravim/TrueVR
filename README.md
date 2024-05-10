@@ -1,48 +1,46 @@
 # TrueVR
 
-![Sem título 3](https://github.com/VictorBravim/TrueVR/assets/122113588/6eb2cb5d-0a8b-4fa4-8252-4dc37eaf63b1)
+![846shots_so](https://github.com/VictorBravim/TrueVR/assets/122113588/77cda799-9520-4fae-9a38-16f17e1ef9d4)
 
-Este é um projeto de site básico construído com Next.js, TypeScript e Tailwind CSS para apresentar a TrueVR, uma plataforma de realidade virtual.
+## Overview
 
-## Visão Geral
+This is a basic website project built with Next.js, TypeScript and Tailwind CSS to showcase TrueVR, a virtual reality platform.
 
-O objetivo deste projeto é criar um site simples, mas elegante, que destaque os principais recursos e benefícios da TrueVR. Ele consiste em várias seções, incluindo navegação, herói, cartão de projeto, conteúdo, caixa de recursos e rodapé.
-
-## Pré-requisitos
+## Requirements
 
 - Node.js
 - npm ou yarn
 
-## Instalação
+## Installation
 
-1. Clone este repositório:
+1. Clone this repository:
  
    ```
    git clone https://github.com/VictorBravim/truevr-website.git
    ```
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    
    ```
    cd truevr-website
    ```
-3. Instale as dependências:
+3. Install dependencies:
    
    ```
    npm install
    # ou
    yarn install
    ```
-## Estrutura do Projeto
+## Project Structure
 
-- components/: Contém os componentes reutilizáveis do site, como navegação, herói, cartão de projeto, etc.
-- pages/: Contém as páginas do site, cada uma correspondendo a uma rota diferente.
-- public/: Contém arquivos estáticos, como imagens.
-- styles/: Contém arquivos de estilo global.
-- globals.css: Arquivo de estilo global aplicado em toda a aplicação.
-- RootLayout.tsx: Layout de raiz para aplicar estilos e configurações globais.
-- next.config.js: Configurações do Next.js.
-- tsconfig.json: Configurações do TypeScript.
+- components/: Contains the reusable components of the website, such as navigation, hero, project card, etc.
+- pages/: Contains the site's pages, each corresponding to a different route.
+- public/: Contains static files, such as images.
+- styles/: Contains global style files.
+- globals.css: Global style file applied throughout the application.
+- RootLayout.tsx: Root layout to apply global styles and settings.
+- next.config.js: Next.js configurations.
+- tsconfig.json: TypeScript settings.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a MIT License.
+- This project is licensed under the MIT License.
