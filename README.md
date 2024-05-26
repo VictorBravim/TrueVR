@@ -1,6 +1,7 @@
 # 👽 TrueVR
 
-![846shots_so](https://github.com/VictorBravim/TrueVR/assets/122113588/77cda799-9520-4fae-9a38-16f17e1ef9d4)
+![image 2](https://github.com/VictorBravim/TrueVR/assets/122113588/c9375d0a-4537-46e6-9d1b-da65c11787a0)
+
 
 ## 🚀 Overview
 
